@@ -10,7 +10,7 @@
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
     "start": "echo 'Starting the application...' && vite --debug",
-    "deploy": "gh-pages -d dist"
+    "deploy": "gh-pages -d dist -r https://github.com/code-munchies/retro-cyberpunk.git"
   },
   "dependencies": {
     "react": "^18.2.0",
